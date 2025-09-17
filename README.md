@@ -1,12 +1,60 @@
-# React + Vite
+# 🖥️ User Dashboard – Hiring Quest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight **User Dashboard** built with React & Bootstrap.  
+The dashboard allows browsing, searching, paginating, and managing users from a REST API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://shimaa49.github.io/UserDashboard/
+   cd my-app
+   npm run dev
+2.Install dependencies:
+npm install
+3.Run the project:
+npm run dev
+4.Open http://localhost:5173 in your browser.
+✨ Features
+Sidebar + Navbar + Main layout.
 
-## Expanding the ESLint configuration
+User statistics cards (Total, Active, Inactive).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User table with search & pagination.
+
+Add/Edit User modal.
+
+Loading & Error handling.
+
+API Endpoints Used
+Users: https://jsonplaceholder.typicode.com/users
+
+🛠️Tech Stack
+React.js
+
+Bootstrap 5
+
+Axios
+
+React Router
+
+Context API
+
+📂 Project Structure
+src/
+ ┣ components/
+ ┃ ┣ Sidebar/
+ ┃ ┣ Navbar/
+ ┃ ┣ User/
+ ┃ ┣ Table/
+ ┃ ┣ Pagination/
+ ┣ Setting/
+ ┃ ┗ Layout/
+ ┣ App.jsx
+ ┣ main.jsx
+ ┗ index.css
+
+
+Demo Video
+https://drive.google.com/file/d/1B_G0hjBqpQY70SLZwJf_ThM3X1op7QmG/view?usp=sharing
