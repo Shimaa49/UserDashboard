@@ -24,7 +24,7 @@ const router = createBrowserRouter([
 
 ],
 {
-  basename:"/UserDashboard",
+  basename:"/UserDashboard/",
 }
 
 
